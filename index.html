@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Clone</title>
+    <link rel="shortcut icon" href="images/logo.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav__section">
+            <a href="#" class="nav__logo"><img src="images/logo.png" alt="Logo"></a>
+            <fieldset class="nav__search">
+                <button><span class="material-icons-outlined">search</span></button>
+                <input type="text" placeholder="Search Facebook">
+            </fieldset>
+        </div>
+        <div class="nav__section">
+            <a href="#" class="nav__icon"><span class="material-icons">home</span></a>
+            <a href="#" class="nav__icon"><span class="material-icons">notifications</span></a>
+            <a href="#" class="nav__icon"><span class="material-icons">email</span></a>
+            <button class="nav__avatar"><img src="images/profile-pic.png" alt="Profile pic"></button>
+        </div>
+    </nav>
+    <main>
+        <div class="column">
+            <section class="column__links">
+                <a href="#" class="column__link"><span class="material-icons-outlined">tab</span>Latest News</a>
+                <a href="#" class="column__link"><span class="material-icons-outlined">people</span>Friends</a>
+                <a href="#" class="column__link"><span class="material-icons-outlined">group_add</span>Groups</a>
+                <a href="#" class="column__link"><span class="material-icons-outlined">shopping_cart</span>Marketplace</a>
+                <a href="#" class="column__link"><span class="material-icons-outlined">movie</span>Watch</a>
+            </section>
+            <section class="column__shortcuts">
+                <div class="column__heading">
+                    <h2>Your Shortcuts</h2>
+                </div>
+                <a href="#" class="column__shortcut"><img src="images/shortcut-1.png" loading="lazy" alt="Shortcut">Web Developers</a>
+                <a href="#" class="column__shortcut"><img src="images/shortcut-2.png" loading="lazy" alt="Shortcut">Web Design Courses</a>
+                <a href="#" class="column__shortcut"><img src="images/shortcut-3.png" loading="lazy" alt="Shortcut">Full Stack Development</a>
+                <a href="#" class="column__shortcut"><img src="images/shortcut-4.png" loading="lazy" alt="Shortcut">Website Experts</a>
+            </section>
+        </div>
+        <div class="newsfeed">
+            <section class="stories">
+                <button class="story"><img src="images/story-1.png" alt="Story"><span>Jackson</span></button>
+                <button class="story"><img src="images/story-2.png" alt="Story"><span>Allison</span></button>
+                <button class="story"><img src="images/story-3.png" alt="Story"><span>Blake</span></button>
+                <button class="story"><img src="images/story-4.png" alt="Story"><span>Kelli</span></button>
+                <button class="story"><img src="images/story-5.png" alt="Story"><span>Brian</span></button>
+            </section>
+            <section class="card">
+                <div class="card__header">
+                    <img src="images/profile-pic.png" alt="Profile pic" class="card__avatar">
+                    <aside class="card__details">
+                        <h1>John Nicholson</h1>
+                        <p>Public<span class="material-icons-outlined">arrow_drop_down</span></p>
+                    </aside>
+                </div>
+                <textarea rows="4" placeholder="What's on your mind, John?"></textarea>
+                <div class="card__footer">
+                    <button><span class="material-icons-outlined">video_call</span>Live Video</button>
+                    <button><span class="material-icons-outlined">photo_camera</span>Photo/Video</button>
+                    <button><span class="material-icons-outlined">mood</span>Feeling/Activity</button>
+                </div>
+            </section>
+            <section class="card">
+                <div class="card__header">
+                    <img src="images/user-1.png" alt="User" class="card__avatar">
+                    <aside class="card__details">
+                        <h1>Allison Medina</h1>
+                        <p>December 14, 2021, 7:15 am</p>
+                    </aside>
+                    <button><span class="material-icons-outlined">more_vert</span></button>
+                </div>
+                <div class="card__body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt error vel excepturi, perferendis cupiditate eveniet totam hic cumque beatae veritatis saepe sed harum similique amet nesciunt esse nam modi aperiam quisquam voluptas voluptates consequatur quasi! Ut ducimus, provident sit ab tempora, quae earum velit repellat vitae repellendus illo asperiores voluptatibus.</p>
+                    <img src="images/post-1.png" alt="Post" class="card__body-image">
+                </div>
+                <div class="card__footer">
+                    <button><span class="material-icons-outlined">thumb_up</span>Like</button>
+                    <button><span class="material-icons-outlined">forum</span>Comment</button>
+                    <button><span class="material-icons-outlined">reply</span>Share</button>
+                </div>
+            </section>
+            <section class="card">
+                <div class="card__header">
+                    <img src="images/user-2.png" loading="lazy" alt="User" class="card__avatar">
+                    <aside class="card__details">
+                        <h1>Jackson Borg</h1>
+                        <p>December 13, 2021, 7:15 pm</p>
+                    </aside>
+                    <button><span class="material-icons-outlined">more_vert</span></button>
+                </div>
+                <div class="card__body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt error vel excepturi, perferendis cupiditate eveniet totam hic cumque beatae veritatis saepe sed harum similique amet nesciunt esse nam modi aperiam quisquam voluptas voluptates consequatur quasi! Ut ducimus, provident sit ab tempora, quae earum velit repellat vitae repellendus illo asperiores voluptatibus.</p>
+                    <img src="images/post-2.png" loading="lazy" alt="Post" class="card__body-image">
+                </div>
+                <div class="card__footer">
+                    <button><span class="material-icons-outlined">thumb_up</span>Like</button>
+                    <button><span class="material-icons-outlined">forum</span>Comment</button>
+                    <button><span class="material-icons-outlined">reply</span>Share</button>
+                </div>
+            </section>
+            <section class="card">
+                <div class="card__header">
+                    <img src="images/user-3.png" loading="lazy" alt="User" class="card__avatar">
+                    <aside class="card__details">
+                        <h1>Chelsea Weatgraf</h1>
+                        <p>December 13, 2021, 2:46 pm</p>
+                    </aside>
+                    <button><span class="material-icons-outlined">more_vert</span></button>
+                </div>
+                <div class="card__body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt error vel excepturi, perferendis cupiditate eveniet totam hic cumque beatae veritatis saepe sed harum similique amet nesciunt esse nam modi aperiam quisquam voluptas voluptates consequatur quasi! Ut ducimus, provident sit ab tempora, quae earum velit repellat vitae repellendus illo asperiores voluptatibus.</p>
+                    <img src="images/post-3.png" loading="lazy" alt="Post" class="card__body-image">
+                </div>
+                <div class="card__footer">
+                    <button><span class="material-icons-outlined">thumb_up</span>Like</button>
+                    <button><span class="material-icons-outlined">forum</span>Comment</button>
+                    <button><span class="material-icons-outlined">reply</span>Share</button>
+                </div>
+            </section>
+            <section class="card">
+                <div class="card__header">
+                    <img src="images/user-4.png" loading="lazy" alt="User" class="card__avatar">
+                    <aside class="card__details">
+                        <h1>Carson Tucker</h1>
+                        <p>December 12, 2021, 10:38 pm</p>
+                    </aside>
+                    <button><span class="material-icons-outlined">more_vert</span></button>
+                </div>
+                <div class="card__body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt error vel excepturi, perferendis cupiditate eveniet totam hic cumque beatae veritatis saepe sed harum similique amet nesciunt esse nam modi aperiam quisquam voluptas voluptates consequatur quasi! Ut ducimus, provident sit ab tempora, quae earum velit repellat vitae repellendus illo asperiores voluptatibus.</p>
+                    <img src="images/post-4.png" loading="lazy" alt="Post" class="card__body-image">
+                </div>
+                <div class="card__footer">
+                    <button><span class="material-icons-outlined">thumb_up</span>Like</button>
+                    <button><span class="material-icons-outlined">forum</span>Comment</button>
+                    <button><span class="material-icons-outlined">reply</span>Share</button>
+                </div>
+            </section>
+            <section class="card">
+                <div class="card__header">
+                    <img src="images/user-5.png" loading="lazy" alt="User" class="card__avatar">
+                    <aside class="card__details">
+                        <h1>Brian Dupree</h1>
+                        <p>December 12, 2021, 8:19 am</p>
+                    </aside>
+                    <button><span class="material-icons-outlined">more_vert</span></button>
+                </div>
+                <div class="card__body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt error vel excepturi, perferendis cupiditate eveniet totam hic cumque beatae veritatis saepe sed harum similique amet nesciunt esse nam modi aperiam quisquam voluptas voluptates consequatur quasi! Ut ducimus, provident sit ab tempora, quae earum velit repellat vitae repellendus illo asperiores voluptatibus.</p>
+                    <img src="images/post-5.png" loading="lazy" alt="Post" class="card__body-image">
+                </div>
+                <div class="card__footer">
+                    <button><span class="material-icons-outlined">thumb_up</span>Like</button>
+                    <button><span class="material-icons-outlined">forum</span>Comment</button>
+                    <button><span class="material-icons-outlined">reply</span>Share</button>
+                </div>
+            </section>
+            <section class="card">
+                <div class="card__header">
+                    <img src="images/user-1.png" loading="lazy" alt="User" class="card__avatar">
+                    <aside class="card__details">
+                        <h1>Allison Medina</h1>
+                        <p>December 14, 2021, 7:15 am</p>
+                    </aside>
+                    <button><span class="material-icons-outlined">more_vert</span></button>
+                </div>
+                <div class="card__body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt error vel excepturi, perferendis cupiditate eveniet totam hic cumque beatae veritatis saepe sed harum similique amet nesciunt esse nam modi aperiam quisquam voluptas voluptates consequatur quasi! Ut ducimus, provident sit ab tempora, quae earum velit repellat vitae repellendus illo asperiores voluptatibus.</p>
+                    <img src="images/post-1.png" loading="lazy" alt="Post" class="card__body-image">
+                </div>
+                <div class="card__footer">
+                    <button><span class="material-icons-outlined">thumb_up</span>Like</button>
+                    <button><span class="material-icons-outlined">forum</span>Comment</button>
+                    <button><span class="material-icons-outlined">reply</span>Share</button>
+                </div>
+            </section>
+            <section class="card">
+                <div class="card__header">
+                    <img src="images/user-2.png" loading="lazy" alt="User" class="card__avatar">
+                    <aside class="card__details">
+                        <h1>Jackson Borg</h1>
+                        <p>December 13, 2021, 7:15 pm</p>
+                    </aside>
+                    <button><span class="material-icons-outlined">more_vert</span></button>
+                </div>
+                <div class="card__body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt error vel excepturi, perferendis cupiditate eveniet totam hic cumque beatae veritatis saepe sed harum similique amet nesciunt esse nam modi aperiam quisquam voluptas voluptates consequatur quasi! Ut ducimus, provident sit ab tempora, quae earum velit repellat vitae repellendus illo asperiores voluptatibus.</p>
+                    <img src="images/post-2.png" loading="lazy" alt="Post" class="card__body-image">
+                </div>
+                <div class="card__footer">
+                    <button><span class="material-icons-outlined">thumb_up</span>Like</button>
+                    <button><span class="material-icons-outlined">forum</span>Comment</button>
+                    <button><span class="material-icons-outlined">reply</span>Share</button>
+                </div>
+            </section>
+            <section class="card">
+                <div class="card__header">
+                    <img src="images/user-3.png" loading="lazy" alt="User" class="card__avatar">
+                    <aside class="card__details">
+                        <h1>Chelsea Weatgraf</h1>
+                        <p>December 13, 2021, 2:46 pm</p>
+                    </aside>
+                    <button><span class="material-icons-outlined">more_vert</span></button>
+                </div>
+                <div class="card__body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt error vel excepturi, perferendis cupiditate eveniet totam hic cumque beatae veritatis saepe sed harum similique amet nesciunt esse nam modi aperiam quisquam voluptas voluptates consequatur quasi! Ut ducimus, provident sit ab tempora, quae earum velit repellat vitae repellendus illo asperiores voluptatibus.</p>
+                    <img src="images/post-3.png" loading="lazy" alt="Post" class="card__body-image">
+                </div>
+                <div class="card__footer">
+                    <button><span class="material-icons-outlined">thumb_up</span>Like</button>
+                    <button><span class="material-icons-outlined">forum</span>Comment</button>
+                    <button><span class="material-icons-outlined">reply</span>Share</button>
+                </div>
+            </section>
+            <section class="card">
+                <div class="card__header">
+                    <img src="images/user-4.png" loading="lazy" alt="User" class="card__avatar">
+                    <aside class="card__details">
+                        <h1>Carson Tucker</h1>
+                        <p>December 12, 2021, 10:38 pm</p>
+                    </aside>
+                    <button><span class="material-icons-outlined">more_vert</span></button>
+                </div>
+                <div class="card__body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt error vel excepturi, perferendis cupiditate eveniet totam hic cumque beatae veritatis saepe sed harum similique amet nesciunt esse nam modi aperiam quisquam voluptas voluptates consequatur quasi! Ut ducimus, provident sit ab tempora, quae earum velit repellat vitae repellendus illo asperiores voluptatibus.</p>
+                    <img src="images/post-4.png" loading="lazy" alt="Post" class="card__body-image">
+                </div>
+                <div class="card__footer">
+                    <button><span class="material-icons-outlined">thumb_up</span>Like</button>
+                    <button><span class="material-icons-outlined">forum</span>Comment</button>
+                    <button><span class="material-icons-outlined">reply</span>Share</button>
+                </div>
+            </section>
+            <section class="card">
+                <div class="card__header">
+                    <img src="images/user-5.png" loading="lazy" alt="User" class="card__avatar">
+                    <aside class="card__details">
+                        <h1>Brian Dupree</h1>
+                        <p>December 12, 2021, 8:19 am</p>
+                    </aside>
+                    <button><span class="material-icons-outlined">more_vert</span></button>
+                </div>
+                <div class="card__body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt error vel excepturi, perferendis cupiditate eveniet totam hic cumque beatae veritatis saepe sed harum similique amet nesciunt esse nam modi aperiam quisquam voluptas voluptates consequatur quasi! Ut ducimus, provident sit ab tempora, quae earum velit repellat vitae repellendus illo asperiores voluptatibus.</p>
+                    <img src="images/post-5.png" loading="lazy" alt="Post" class="card__body-image">
+                </div>
+                <div class="card__footer">
+                    <button><span class="material-icons-outlined">thumb_up</span>Like</button>
+                    <button><span class="material-icons-outlined">forum</span>Comment</button>
+                    <button><span class="material-icons-outlined">reply</span>Share</button>
+                </div>
+            </section>
+        </div>
+        <div class="column">
+            <section class="events">
+                <div class="column__heading">
+                    <h2>Events</h2>
+                    <a href="#">See more</a>
+                </div>
+                <div class="event">
+                    <div class="event__calendar">
+                        <h4>8</h4>
+                        <p>December</p>
+                    </div>
+                    <div class="event__details">
+                        <h3>Social Media</h3>
+                        <p><span class="material-icons-outlined">location_on</span>Wilson Tech Park</p>
+                        <a href="#">More info</a>
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="event__calendar">
+                        <h4>4</h4>
+                        <p>January</p>
+                    </div>
+                    <div class="event__details">
+                        <h3>Digital Marketing</h3>
+                        <p><span class="material-icons-outlined">location_on</span>Wilson Tech Park</p>
+                        <a href="#">More info</a>
+                    </div>
+                </div>
+            </section>
+            <section class="advertisements">
+                <div class="column__heading">
+                    <h2>Sponsored</h2>
+                    <a href="#">Close</a>
+                </div>
+                <div class="advertisement">
+                    <img src="images/advertisement.png" loading="lazy" alt="Advertisement">
+                </div>
+            </section>
+            <section class="conversations">
+                <div class="column__heading">
+                    <h2>Conversations</h2>
+                    <a href="#">Hide</a>
+                </div>
+                <a href="#" class="conversation"><img src="images/user-1.png" loading="lazy" alt="User">Allison Medina</a>
+                <a href="#" class="conversation"><img src="images/user-2.png" loading="lazy" alt="User">Jackson Borg</a>
+                <a href="#" class="conversation"><img src="images/user-3.png" loading="lazy" alt="User">Chelsea Weatgraf</a>
+                <a href="#" class="conversation"><img src="images/user-4.png" loading="lazy" alt="User">Carson Tucker</a>
+                <a href="#" class="conversation"><img src="images/user-5.png" loading="lazy" alt="User">Brian Dupree</a>
+                <a href="#" class="conversation"><img src="images/user-6.png" loading="lazy" alt="User">Kelsey Voigt</a>
+                <a href="#" class="conversation"><img src="images/user-7.png" loading="lazy" alt="User">Thomas Hanrahan</a>
+                <a href="#" class="conversation"><img src="images/user-8.png" loading="lazy" alt="User">Jacy Starks</a>
+                <a href="#" class="conversation"><img src="images/user-9.png" loading="lazy" alt="User">Wilson McCune</a>
+                <a href="#" class="conversation"><img src="images/user-1.png" loading="lazy" alt="User">Allison Medina</a>
+                <a href="#" class="conversation"><img src="images/user-2.png" loading="lazy" alt="User">Jackson Borg</a>
+                <a href="#" class="conversation"><img src="images/user-3.png" loading="lazy" alt="User">Chelsea Weatgraf</a>
+                <a href="#" class="conversation"><img src="images/user-4.png" loading="lazy" alt="User">Carson Tucker</a>
+                <a href="#" class="conversation"><img src="images/user-5.png" loading="lazy" alt="User">Brian Dupree</a>
+                <a href="#" class="conversation"><img src="images/user-6.png" loading="lazy" alt="User">Kelsey Voigt</a>
+                <a href="#" class="conversation"><img src="images/user-7.png" loading="lazy" alt="User">Thomas Hanrahan</a>
+                <a href="#" class="conversation"><img src="images/user-8.png" loading="lazy" alt="User">Jacy Starks</a>
+                <a href="#" class="conversation"><img src="images/user-9.png" loading="lazy" alt="User">Wilson McCune</a>
+                <a href="#" class="conversation"><img src="images/user-1.png" loading="lazy" alt="User">Allison Medina</a>
+                <a href="#" class="conversation"><img src="images/user-2.png" loading="lazy" alt="User">Jackson Borg</a>
+                <a href="#" class="conversation"><img src="images/user-3.png" loading="lazy" alt="User">Chelsea Weatgraf</a>
+                <a href="#" class="conversation"><img src="images/user-4.png" loading="lazy" alt="User">Carson Tucker</a>
+                <a href="#" class="conversation"><img src="images/user-5.png" loading="lazy" alt="User">Brian Dupree</a>
+                <a href="#" class="conversation"><img src="images/user-6.png" loading="lazy" alt="User">Kelsey Voigt</a>
+                <a href="#" class="conversation"><img src="images/user-7.png" loading="lazy" alt="User">Thomas Hanrahan</a>
+                <a href="#" class="conversation"><img src="images/user-8.png" loading="lazy" alt="User">Jacy Starks</a>
+                <a href="#" class="conversation"><img src="images/user-9.png" loading="lazy" alt="User">Wilson McCune</a>
+            </section>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
